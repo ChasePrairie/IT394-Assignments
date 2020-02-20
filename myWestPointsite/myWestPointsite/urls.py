@@ -16,7 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 
+# Utilized Code from Django-3-Tutorial created in IT394 class to get proper view of GraduationYear to DistinguishedGraduates
+
 urlpatterns = [
     path('westPointInfo/', include('westPointInfo.urls')),
-    path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls)
 ]
